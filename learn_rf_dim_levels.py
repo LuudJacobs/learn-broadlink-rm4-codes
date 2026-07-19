@@ -84,7 +84,8 @@ def main():
         results[name] = code
 
         if level < level_count - 1:
-            choice = input("Press Enter to continue to the next level, or 'q' to quit and save... ").strip().lower()
+            next_pct = round((level + 1) * 100 / (level_count - 1))
+            choice = input(f"Press Enter to continue to {next_pct}%, or 'q' to quit and save... ").strip().lower()
             if choice == "q":
                 break
 
