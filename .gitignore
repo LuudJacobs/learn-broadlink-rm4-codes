@@ -1,0 +1,5 @@
+ir_codes.json
+rf_codes.json
+rf_dim-level_codes.json
+__pycache__/
+*.pyc
