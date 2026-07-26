@@ -40,20 +40,20 @@ Each script walks you through the same basic loop:
 
 Output is written once, when you quit, to the JSON file named below.
 
-## Scripts
+### Scripts
 
-### learn_ir_codes.py
+#### learn_ir_codes.py
 
 Interactively learns IR codes one button at a time and saves them to
 `ir_codes.json`.
 
-### learn_rf_codes.py
+#### learn_rf_codes.py
 
 Same interactive flow as `learn_ir_codes.py`, but for RF codes. Also prompts
 for the frequency in MHz (e.g. 433.92) after the IP address, and saves
 results to `rf_codes.json`.
 
-### learn_rf_dim_levels.py
+#### learn_rf_dim_levels.py
 
 Same interactive flow, for a dimmer's RF dim levels. First asks for the
 number of dim levels (e.g. 16), then the IP address and frequency. Button
