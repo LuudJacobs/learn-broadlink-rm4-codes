@@ -1,8 +1,13 @@
-# broadlink-code-learner
+# broadlink-code-learner 1.0.0
 
 Small scripts to reliably learn IR/RF codes with a Broadlink RM4 Pro. The
 learned hex codes can be pasted directly wherever your automation setup
 expects a raw code (e.g. in the config of a Homebridge accessory).
+
+## Requirements
+
+- Python 3
+- A Broadlink RM4 Pro reachable on the same network
 
 ## Installation
 
@@ -56,3 +61,7 @@ names are generated automatically as rounded percentages, e.g. `level-0`,
 `level-7`, ... `level-100`. Control the dimmer during learning via its
 companion app or hub instead of a physical remote. Saves results to
 `rf_dim-level_codes.json`.
+
+## Links
+
+[License](https://github.com/LuudJacobs/learn-broadlink-rm4-codes/blob/main/LICENSE) · [Changelog](https://github.com/LuudJacobs/learn-broadlink-rm4-codes/blob/main/CHANGELOG.md)
