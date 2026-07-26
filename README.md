@@ -1,4 +1,4 @@
-# broadlink-code-learner 1.0.0
+# broadlink-code-learner 1.0.1
 
 Small scripts to reliably learn IR/RF codes with a Broadlink RM4 Pro. The
 learned hex codes can be pasted directly wherever your automation setup
